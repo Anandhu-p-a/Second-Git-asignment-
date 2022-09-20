@@ -1,8 +1,17 @@
 //check palindrome
-var str ="abc";
-var bag ="";
-for(var i=str.length-1;i>=0;i--){
-  bag = bag +str[i];
+let str ="Naman";
+let extrstr=str;
+ 
+let bag= "";
+for( let i=str.length-1;i>=0;i--){
+  bag=bag+str[i];
 }
-if(str==bag){console.log("Not Palindrome")}
-else{console.log("Not Palindrome")}
+if(exstr==bag){
+console.log("Yes");
+}else{
+  console.log("No");
+}
+  
+
+
+
